@@ -1,0 +1,38 @@
+export default function RefundsPolicy() {
+  return (
+    <main className="container mx-auto px-4 py-16 md:py-24 max-w-4xl">
+      <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 mb-4">Refund & Cancellation Policy</h1>
+      <p className="text-zinc-500 mb-8">Last updated: {new Date().toLocaleDateString()}</p>
+
+      <div className="space-y-8 text-zinc-700 leading-relaxed">
+        <section>
+          <h2 className="text-2xl font-bold text-zinc-900 mb-3">1. Cancellation by Students</h2>
+          <p>
+            Users may cancel their study desk bookings directly through the LiBrowse app. The eligibility for a refund, as well as any applicable cancellation fees, depends strictly on the specific cancellation policy set by the Library Owner at the time of booking.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-zinc-900 mb-3">2. Refund Processing Timeline</h2>
+          <p>
+            Approved refunds will be processed immediately and routed back to the original method of payment (e.g., UPI, credit/debit card, or net banking). Please allow 5-7 business days for the refunded amount to reflect in your bank account depending on your bank's processing speeds.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-zinc-900 mb-3">3. Library-Initiated Cancellations</h2>
+          <p>
+            In the rare event that a Library Owner must cancel your booking (e.g., due to unforeseen closures, power outages, or maintenance), a full 100% refund will be automatically initiated to your original payment method.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-zinc-900 mb-3">4. Dispute Resolution</h2>
+          <p>
+            If you believe you were charged incorrectly or if an approved refund has not appeared in your account after 7 business days, please contact our financial support team at <strong>support@librowse.in</strong> with your Booking ID and transaction details.
+          </p>
+        </section>
+      </div>
+    </main>
+  );
+}

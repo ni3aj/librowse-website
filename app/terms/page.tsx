@@ -1,4 +1,3 @@
-// app/terms/page.tsx
 export default function TermsAndConditions() {
   return (
     <main className="container mx-auto px-4 py-16 md:py-24 max-w-4xl">
